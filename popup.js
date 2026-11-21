@@ -1,21 +1,25 @@
 
-const url = document.getElementById("url");
-const token = document.getElementById("token");
-const status = document.getElementById("status");
+const fields = ["owner", "repo", "branch", "token"];
 
 chrome.storage.local.get(["settings"], result => {
   const settings = result.settings || {};
-  url.value = settings.scriptUrl || "";
-  token.value = settings.token || "";
+
+  fields.forEach(key => {
+    document.getElementById(key).value =
+      settings[key] || (key === "branch" ? "main" : "");
+  });
 });
 
 document.getElementById("save").addEventListener("click", async () => {
-  await chrome.storage.local.set({
-    settings: {
-      scriptUrl: url.value.trim(),
-      token: token.value.trim()
-    }
+  const settings = {};
+
+  fields.forEach(key => {
+    settings[key] =
+      document.getElementById(key).value.trim();
   });
 
-  status.textContent = "Settings saved!";
+  await chrome.storage.local.set({ settings });
+
+  document.getElementById("status").textContent =
+    "GitHub settings saved.";
 });
