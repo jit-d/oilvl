@@ -1,0 +1,30 @@
+
+{
+  "manifest_version": 3,
+  "name": "Nuvama NIFTY Ranking Tracker",
+  "version": "1.0.0",
+  "description": "Tracks NIFTY option-chain top-two ranking changes and saves them to Google Sheets.",
+  "permissions": [
+  "storage",
+  "alarms"
+],
+  "host_permissions": [
+    "https://www.nuvamawealth.com/*",
+    "https://api.github.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nuvamawealth.com/markets/options*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

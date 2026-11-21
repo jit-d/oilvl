@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+body {
+  width: 320px;
+  padding: 15px;
+  font-family: Arial, sans-serif;
+}
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px;
+  margin: 6px 0 12px;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+}
+small { color: #666; }
+</style>
+</head>
+<body>
+<h3>Nuvama NIFTY Tracker</h3>
+
+<label>GitHub username</label>
+<input id="owner" placeholder="your-github-username">
+
+<label>Repository name</label>
+<input id="repo" placeholder="nuvama-nifty-tracker">
+
+<label>Branch</label>
+<input id="branch" value="main">
+
+<label>Fine-grained access token</label>
+<input id="token" type="password" placeholder="github_pat_...">
+
+<button id="save">Save GitHub settings</button>
+<p id="status"></p>
+<small>Only your selected private repository is used.</small>
+
+<script src="popup.js"></script>
+</body>
+</html>
