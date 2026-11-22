@@ -1,0 +1,83 @@
+[
+  {
+    "eventId": "e2dbf8b8-9fc4-4be2-bfea-ebbfd686d6a8",
+    "sessionId": "803e09d6-adb9-4254-8ae1-9cbec2998f8f",
+    "type": "OPEN",
+    "at": "2026-11-22T19:04:22.385Z",
+    "expiry": "Expiry not detected",
+    "sets": {
+      "CE ChOI": [
+        {
+          "rank": 1,
+          "strike": 26100,
+          "value": 26.29
+        },
+        {
+          "rank": 2,
+          "strike": 25800,
+          "value": 21.52
+        }
+      ],
+      "CE OI": [
+        {
+          "rank": 1,
+          "strike": 26000,
+          "value": 143.14
+        },
+        {
+          "rank": 2,
+          "strike": 25800,
+          "value": 72.56
+        }
+      ],
+      "CE Volume": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 400809240
+        },
+        {
+          "rank": 2,
+          "strike": 25700,
+          "value": 400794290
+        }
+      ],
+      "PE ChOI": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 74.8
+        },
+        {
+          "rank": 2,
+          "strike": 25700,
+          "value": 64.04
+        }
+      ],
+      "PE OI": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 146.95
+        },
+        {
+          "rank": 2,
+          "strike": 25700,
+          "value": 69.22
+        }
+      ],
+      "PE Volume": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 384684950
+        },
+        {
+          "rank": 2,
+          "strike": 25700,
+          "value": 211021330
+        }
+      ]
+    }
+  }
+]
