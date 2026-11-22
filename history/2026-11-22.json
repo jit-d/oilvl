@@ -160,25 +160,4 @@
         }
       ]
     }
-  },
-  {
-    "eventId": "02427606-d15f-4014-a4d7-05f95843d498",
-    "sessionId": "7365f221-5799-4011-b2a8-73682e40f321",
-    "type": "CHANGE",
-    "at": "2026-11-22T10:14:53.892Z",
-    "changes": [
-      "CE OI #1 changed from 26750 to 26000",
-      "CE OI #2 changed from 26800 to 25800",
-      "CE ChOI #1 changed from 26750 to 26100",
-      "CE ChOI #2 changed from 26800 to 25800",
-      "CE Volume #1 changed from empty to 25500",
-      "CE Volume #2 changed from empty to 25700",
-      "PE OI #1 changed from 26750 to 25500",
-      "PE OI #2 changed from 26800 to 25700",
-      "PE ChOI #1 changed from 26750 to 25500",
-      "PE ChOI #2 changed from 26800 to 25700",
-      "PE Volume #1 changed from empty to 25500",
-      "PE Volume #2 changed from empty to 25700"
-    ]
   }
-]
