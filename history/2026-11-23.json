@@ -98,5 +98,86 @@
     "changes": [
       "CE Volume #2 changed from 25900 to 25800"
     ]
+  },
+  {
+    "eventId": "4876f5a9-a71e-4218-9760-d87c056ff073",
+    "sessionId": "0bf0cb18-1457-4abd-b3f3-9a41f346eef7",
+    "type": "OPEN",
+    "at": "2026-11-23T05:23:49.912Z",
+    "expiry": "Expiry not detected",
+    "sets": {
+      "CE ChOI": [
+        {
+          "rank": 1,
+          "strike": 25700,
+          "value": 151.06
+        },
+        {
+          "rank": 2,
+          "strike": 25900,
+          "value": 135.15
+        }
+      ],
+      "CE OI": [
+        {
+          "rank": 1,
+          "strike": 25700,
+          "value": 197.12
+        },
+        {
+          "rank": 2,
+          "strike": 25800,
+          "value": 189.76
+        }
+      ],
+      "CE Volume": [
+        {
+          "rank": 1,
+          "strike": 25700,
+          "value": 227162130
+        },
+        {
+          "rank": 2,
+          "strike": 25800,
+          "value": 214363370
+        }
+      ],
+      "PE ChOI": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 89.41
+        },
+        {
+          "rank": 2,
+          "strike": 25600,
+          "value": 84.54
+        }
+      ],
+      "PE OI": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 228.02
+        },
+        {
+          "rank": 2,
+          "strike": 25400,
+          "value": 159.12
+        }
+      ],
+      "PE Volume": [
+        {
+          "rank": 1,
+          "strike": 25500,
+          "value": 345274865
+        },
+        {
+          "rank": 2,
+          "strike": 25600,
+          "value": 341090100
+        }
+      ]
+    }
   }
 ]
