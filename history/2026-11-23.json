@@ -89,5 +89,14 @@
       "CE Volume #1 changed from 25900 to 25700",
       "CE Volume #2 changed from 25700 to 25900"
     ]
+  },
+  {
+    "eventId": "100b9fcd-dbdc-4457-b97a-2b1a3b377bef",
+    "sessionId": "c77a1268-a39c-45c8-930e-12ebb2c34842",
+    "type": "CHANGE",
+    "at": "2026-11-23T05:22:34.344Z",
+    "changes": [
+      "CE Volume #2 changed from 25900 to 25800"
+    ]
   }
 ]
